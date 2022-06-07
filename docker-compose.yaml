@@ -1,0 +1,46 @@
+version: "3.9"
+services:
+  hp_torpus:
+    depends_on:
+      - wp_video
+    ports:
+    - 80:81
+    - 443:444
+    - 5037:5037
+    image: torplusdev/production:ipfs_haproxy-latest
+    volumes:
+      - ./tor:/root/tor
+      - ./hidden_service:/root/hidden_service
+      - ./tor:/usr/local/etc/tor/
+      - ./ssl:/etc/ssl/torplus/
+      - ./logs:/opt/torplus/logs/
+    environment:
+      - http_address=wp_video:80
+    env_file:
+      - .env
+  db_video:
+      image: mysql:5.7
+      volumes:
+      - ./video/db:/var/lib/mysql
+      restart: always
+      environment:
+          MYSQL_ROOT_PASSWORD: rootps
+          MYSQL_DATABASE: wordpress
+          MYSQL_USER: wordpress
+          MYSQL_PASSWORD: wordpress
+  wp_video:
+      depends_on:
+      - db_video
+      ports: 
+      - 8091:81
+      image: wordpress:latest
+      volumes:
+      - ./video/wp:/var/www/html
+      - ./video/backup:/var/www/html/wp-content/updraft
+      restart: always
+      environment:
+          WORDPRESS_DB_HOST: db_video:3306
+          WORDPRESS_DB_USER: wordpress
+          WORDPRESS_DB_PASSWORD: wordpress
+          WORDPRESS_DB_NAME: wordpress
+  

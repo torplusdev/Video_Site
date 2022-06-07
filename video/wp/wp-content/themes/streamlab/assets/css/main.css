@@ -1,0 +1,78 @@
+/*
+Template: streamlab - Video Streaming WordPress Theme
+Author: Gentechtree
+Version: 1.0
+Design and Developed by: Gentechtree.com
+
+*/
+
+.gen-video-holder .wpulike { display: none; }
+
+.movie-grid .gen-movie-add .dropdown-menu a{
+	position: relative;
+}
+
+
+.movie-grid .gen-movie-add .dropdown-menu a.toggle-playlist:before{
+	content: "\2610";
+    padding-right: 15px;
+    font-size: 18px;
+    width: 18px;
+    height: 18px;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.movie-grid .gen-movie-add .dropdown-menu a.toggle-playlist.added:before{
+	content: '\2611';
+	padding-right: 10px;
+    font-size: 18px;
+    width: 18px;
+    height: 18px;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.movie-grid .gen-movie-add .dropdown-menu a:last-child:before{
+	content: '\002B';
+	padding-right: 10px;
+    font-size: 18px;
+    width: 18px;
+    height: 18px;
+}
+
+.mCSB_inside>.mCSB_container{
+	margin-right: 15px;
+}
+
+.wpulike.wpulike-default{
+	display: none;
+}
+
+.toggle-playlist.added {
+    color: var(--primary-color) !important;
+}
+
+.wpulike.wpulike-heart a i { color: var(--white-color); }
+.wpulike.wpulike-heart a.liked i { color: var(--primary-color); }
+
+.gen-single-movie-info .gen-excerpt, .gen-single-video-info .gen-excerpt { display: inline-block; width: 100%; font-size: 18px; }
+.gen-single-tv-show-info .gen-excerpt { display: inline-block; width: 100%; font-size: 18px; margin-bottom: 30px; }
+.gen-episode-contain .gen-episode-info h3 { font-size: 20px; line-height: 28px; font-weight: 400; white-space: nowrap; text-overflow: ellipsis; overflow: hidden;}
+
+.gen-movie-contain-style-2 .gen-movie-meta-holder ul.gen-meta-after-title li:first-child:before
+{
+    display: none;
+}
+
+.gen-banner-movies .gen-movie-contain .gen-movie-meta-holder ul li a.gen-imgb-link
+{
+    background: none;
+}
+.gen-movie-contain-style-2 .gen-movie-meta-holder ul.gen-meta-after-title li a.gen-imgb-link
+{
+    background: none;
+}
+
+.gen-movie-contain-style-3 .gen-movie-meta-holder ul li a.gen-imgb-link
+{
+    background: none;
+}

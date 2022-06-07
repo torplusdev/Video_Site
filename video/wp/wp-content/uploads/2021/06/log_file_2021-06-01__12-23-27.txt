@@ -1,0 +1,101 @@
+
+---Downloaded files---
+The import files for: Red Home were successfully downloaded!
+Initial max execution time = 30
+Files info:
+Site URL = http://da-video.imediasolutions.ru
+Data file = /var/www/imediasub/data/www/da-video/wp-content/themes/streamlab/admin//classes/import/demos/demo-1/red/xml.xml
+Widget file = /var/www/imediasub/data/www/da-video/wp-content/themes/streamlab/admin//classes/import/demos/demo-1/red/wie.wie
+Customizer file = /var/www/imediasub/data/www/da-video/wp-content/themes/streamlab/admin//classes/import/demos/demo-1/red/dat.dat
+Redux files:
+theme_options -> /var/www/imediasub/data/www/da-video/wp-content/themes/streamlab/admin//classes/import/demos/demo-1/red/json.json 
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Sidebar : 
+
+Поиск - No Title - Widget already exists
+Свежие записи - No Title - Widget already exists
+Свежие комментарии - No Title - Widget already exists
+Архивы - No Title - Widget already exists
+Рубрики - No Title - Widget already exists
+Мета - No Title - Widget already exists
+
+Footer  1 : 
+
+Footer Logo - No Title - Imported
+
+Footer  2 : 
+
+Меню навигации - Explore - Imported
+
+Footer  3 : 
+
+Меню навигации - Company - Imported
+
+Footer  4 : 
+
+Downlaod App - Downlaod App - Imported
+
+
+
+---Importing Redux settings---
+Redux settings import for: theme_options finished successfully!
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---ocdi/after_import---
+

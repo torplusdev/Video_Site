@@ -1,0 +1,5 @@
+/ssl/*
+/logs
+/tor
+/.env
+/video.zip

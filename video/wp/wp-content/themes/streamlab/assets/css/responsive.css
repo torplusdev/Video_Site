@@ -1,0 +1,261 @@
+/*
+
+Template: streamlab - Video Streaming WordPress Theme
+Author: Gentechtree
+Version: 1.0
+Design and Developed by: Gentechtree.com
+
+*/
+@media(max-width:1699px) {
+
+	/*===== Container =====*/
+	.container,
+	.elementor-section.elementor-section-boxed>.elementor-container {
+		max-width: 95%;
+	}
+
+}
+
+@media(max-width:1499px) {
+	.gen-appstore-logo,
+	.gen-playstore-logo {
+		height: 38px;
+	}
+
+}
+
+@media(max-width:1365px) {
+	footer#gen-footer {
+		font-size: 14px;
+	}
+
+	.gen-section-title-box .gen-section-title {
+		font-size: 44px;
+		line-height: 52px;
+	}
+
+}
+
+@media(max-width:1299px) {
+	.gen-appstore-logo,
+	.gen-playstore-logo {
+		height: 36px;
+	}
+
+}
+
+@media(max-width:1199px) {
+	.container,
+	.elementor-section.elementor-section-boxed>.elementor-container {
+		max-width: 960px;
+	}
+
+	.section-style:before {
+		content: "";
+		position: absolute;
+		right: 100%;
+		top: 0;
+		display: inline-block;
+		width: 100%;
+		height: 100%;
+		background: var(--yellow-color);
+	}
+
+	.last .gen-process-step.gen-process-2 .gen-before-img {
+		display: none;
+	}
+
+	.gen-appstore-logo,
+	.gen-playstore-logo {
+		height: 45px;
+	}
+
+}
+
+@media(max-width:1023px) {
+	.container,
+	.elementor-section.elementor-section-boxed>.elementor-container {
+		max-width: 100%;
+	}
+
+	footer#gen-footer {
+		font-size: 16px;
+	}
+
+	.gen-subscribe-block {
+		margin-bottom: 30px;
+	}
+
+	#gen-footer .gen-footer-style-1  .gen-copyright-footer .row {
+		-ms-flex-direction: row-reverse !important;
+		flex-direction: row-reverse !important;
+	}
+
+	.content-area .site-main {
+		padding: 90px 0;
+	}
+
+	.navbar-expand-lg .navbar-toggler {
+		display: block;
+	}
+
+	.navbar-expand-lg .navbar-collapse.collapse:not(.show) {
+		display: none !important;
+	}
+
+}
+
+@media(max-width:767px) {
+	.gen-section-title-box .gen-section-title {
+		font-size: 38px;
+		line-height: 1.3;
+	}
+
+	.gen-section-title-box.text-center {
+		margin-bottom: 30px;
+	}
+
+	#gen-footer .gen-footer-style-1 .gen-copyright-footer .text-right {
+		text-align: center !important;
+	}
+
+	#gen-footer .gen-footer-style-1 .gen-copyright-footer .gen-copyright {
+		padding: 15px 0;
+		display: inline-block;
+		width: 100%;
+	}
+
+	.content-area .site-main {
+		padding: 60px 0;
+	}
+
+	.gen-blog-post .gen-blog-contain {
+		padding: 15px;
+	}
+
+	.gen-blog-post .gen-post-meta ul li:last-child {
+		margin-top: 0;
+	}
+
+	.gen-process-step.gen-process-2 .gen-before-img {
+		display: none;
+	}
+
+	.gen-banner-movies .gen-movie-contain .gen-movie-meta-holder p,
+	.gen-banner-movies .gen-movie-contain .gen-movie-info p {
+		font-size: 16px;
+	}
+
+	.gen-banner-movies .slider-item,
+	.gen-banner-movies .item {
+		height: 90vh;
+	}
+
+	.gen-after-excerpt {
+		display: inline-block;
+		width: 100%;
+	}
+
+	.gen-after-excerpt .gen-socail-share {
+		margin: 30px 0 0;
+	}
+
+	.gen-after-excerpt .gen-socail-share ul {
+		margin: 0 0 0 15px;
+	}
+
+	.gen-comment-area .comments-title,
+	.comment-respond .comment-reply-title {
+		font-size: 28px;
+		line-height: 36px;
+	}
+
+}
+
+@media(max-width:479px) {
+	#gen-loading img {
+		height: 60px;
+	}
+
+	.gen-blog-post .gen-post-meta ul {
+		display: inline-block !important;
+		margin: 0;
+	}
+
+	.gen-section-title-box .gen-section-title {
+		font-size: 30px;
+		line-height: 1.3;
+	}
+
+	.gen-subscribe-block .gen-subscribe-img {
+		display: none;
+	}
+
+	.gen-subscribe-block .gen-subscribe-details {
+		margin-left: 0;
+		text-align: center;
+	}
+
+	.gen-subscribe-from form input {
+		text-align: center;
+	}
+
+	.gen-subscribe-from form input[type="submit"] {
+		position: relative;
+		width: 100%;
+	}
+
+	.gen-after-excerpt .gen-extra-data ul li span:first-child {
+		width: auto;
+	}
+
+	.gen-after-excerpt .gen-socail-share {
+		margin: 30px 0 0;
+		display: inline-block;
+		width: 100%;
+		text-align: left;
+	}
+
+	.gen-after-excerpt .gen-socail-share h4 {
+		display: inline-block;
+		width: 100%;
+		margin: 0 0 15px 0;
+	}
+
+	.gen-after-excerpt .gen-socail-share ul {
+		margin: 0;
+	}
+
+	footer#gen-footer .gen-footer-style-1 .widget ul.menu li {
+		width: 100%;
+	}
+
+	header#gen-header .gen-bottom-header .navbar .navbar-brand img {
+		height: 45px;
+	}
+
+	.gen-comment-area .comments-title,
+	.comment-respond .comment-reply-title {
+		font-size: 24px;
+		line-height: 32px;
+	}
+
+}
+
+@media(max-width:359px) {
+	.gen-playstore-logo {
+		display: inline-block;
+		width: 51%;
+		height: auto;
+	}
+
+	.gen-appstore-logo {
+		display: inline-block;
+		width: 51%;
+		height: auto;
+		margin-top: 15px;
+		margin-left: 0;
+	}
+
+}
+
